@@ -1,28 +1,8 @@
 test_closest (__main__.TestExercice) ... ok
-test_coordinates (__main__.TestExercice) ... FAIL
+test_coordinates (__main__.TestExercice) ... ok
 test_linear_values (__main__.TestExercice) ... ok
 
-======================================================================
-FAIL: test_coordinates (__main__.TestExercice)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "D:/Universite/INF1007/Exercices/chapitre10/test_exercice.py", line 29, in test_coordinates
-    np.testing.assert_array_equal(
-  File "C:\Users\fdero\anaconda3\lib\site-packages\numpy\testing\_private\utils.py", line 935, in assert_array_equal
-    assert_array_compare(operator.__eq__, x, y, err_msg=err_msg,
-  File "C:\Users\fdero\anaconda3\lib\site-packages\numpy\testing\_private\utils.py", line 765, in assert_array_compare
-    raise AssertionError(msg)
-AssertionError: 
-Arrays are not equal
-Mauvaise réponse
-(shapes (7,), (3, 2) mismatch)
- x: array([ 1.482197e-323,  0.000000e+000,  0.000000e+000,  1.414214e+001,
-        7.853982e-001,  2.236068e+000, -4.636476e-001])
- y: array([[ 0.      ,  0.      ],
-       [14.142136,  0.785398],
-       [ 2.236068, -0.463648]])
+Ran 3 tests in 0.001s
 
-----------------------------------------------------------------------
-Ran 3 tests in 0.011s
-
-FAILED (failures=1)
+OK
